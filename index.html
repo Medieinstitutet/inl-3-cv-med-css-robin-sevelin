@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
+    <meta name="description" content="This is portfolio website" />
+    <title>Robin Sevelin - Portfolio Website</title>
     <link rel="stylesheet" href="style/style.css" />
     <link
       rel="stylesheet"
@@ -13,7 +14,7 @@
   </head>
   <body>
     <!--full-page start-->
-    <section class="full-page">
+    <div class="full-page">
       <!--header start-->
       <header>
         <div class="name">
@@ -25,40 +26,38 @@
       <!--main start-->
       <main>
         <section class="about">
-          <h3>Vem är jag?</h3>
+          <h2>Vem är jag?</h2>
           <p>
             Glad och social person som alltid strävar efter att utvecklas. Är en
             lagspelare som ställer upp för teamet för att gemensamt nå bästa
-            resultat.
+            resultat. Älskar även att träna och spendera tid i naturen.
           </p>
         </section>
-        <section class="picture-of-me">
-          <img
-            src="/img/IMG_4583.jpeg"
-            alt="smiling-man"
-            width="100px"
-            height="auto"
-          />
-        </section>
+        <div class="picture-of-me"></div>
         <section class="education">
-          <h3>Utbildning</h3>
-          <p>Medieinstitutet YH Front-End Developer 22</p>
+          <h2>Utbildning</h2>
+          <p>Medieinstitutet YH Front-End Developer 22/24</p>
+          <blockquote class="form-function">
+            <p>"Avancerad webbutveckling med fokus på form och funktion"</p>
+          </blockquote>
         </section>
         <section class="skills">
-          <h3>Färdigheter</h3>
+          <h2>Färdigheter</h2>
           <ul>
-            <li>Html, Css, Sass, Js, Git, React, Node Js</li>
+            <li>Html, Css, Sass, Js, Git, React, Node Js, Ux</li>
             <li>Svenska, Engelska</li>
             <li>B-körkort</li>
             <li>Glad</li>
             <li>Omtänksam</li>
             <li>Lugn</li>
+            <li>Hög social kompetens</li>
+            <li>Noggrann</li>
           </ul>
         </section>
         <section class="experience">
-          <h3>Arbetslivserfarenhet</h3>
+          <h2>Arbetslivserfarenhet</h2>
           <section class="keges">
-            <h4>Keges Grosshandel, 2022</h4>
+            <h3>Keges Grosshandel, 2022</h3>
             <ul>
               <li>Hanterade en personlig kundkontakt via telefon och mail.</li>
               <li>Problemlösning via kunder, kollegor och leveranser.</li>
@@ -70,17 +69,15 @@
             </ul>
           </section>
           <section class="strandakar">
-            <h4>Strandakar, Hotell och restaurang, 2019/2021</h4>
-            <li>Ansvara för köket tillsammans med köksmästaren</li>
-            <li>Planera, skriva och laga upp menyer efter säsong</li>
-            <li>Leda personalen i köket</li>
-            <li>
-              På ett personligt sätt skapa en egen touch på
-              restaurang-upplevelsen för gästerna som dom ska minnas och vilja
-              ha mer av
-            </li>
-            <li>Varubeställningar</li>
-            <li>Egenkontroll</li>
+            <h3>Strandakar, Hotell och restaurang, 2019/2021</h3>
+            <ul>
+              <li>Ansvara för köket tillsammans med köksmästaren</li>
+              <li>Planera, skriva och laga upp menyer efter säsong</li>
+              <li>Leda personalen i köket</li>
+              <li>På ett personligt sätt skapa unika restaurang upplevelser</li>
+              <li>Varubeställningar</li>
+              <li>Egenkontroll</li>
+            </ul>
           </section>
         </section>
       </main>
@@ -92,15 +89,12 @@
           <h3>Kontakt</h3>
           <address>
             <ul>
+              <li><span class="fa fa-phone"></span>070-4852293</li>
               <li>
-                <span class="fa fa-phone" aria-hidden="true"></span>070-4852293
+                <span class="fa fa-home"></span>Sjudarevägen 40 C, 621 53 Visby
               </li>
               <li>
-                <span class="fa fa-home" aria-hidden="true"></span>Sjudarevägen
-                40 C, 621 53 Visby
-              </li>
-              <li>
-                <span class="fa fa-envelope" aria-hidden="true"></span
+                <span class="fa fa-envelope"></span
                 ><a href="#">robinsevelin@hotmail.com</a>
               </li>
             </ul>
@@ -110,15 +104,19 @@
           <h3>Sociala medier</h3>
           <nav>
             <ul>
-              <li><a href="#" class="fa fa-facebook"></a></li>
-              <li><a href="#" class="fa fa-github"></a></li>
-              <li><a href="#" class="fa fa-linkedin"></a></li>
+              <li>
+                <span class="fa fa-facebook"></span><a href="#">Facebook</a>
+              </li>
+              <li><span class="fa fa-github"></span><a href="#">Github</a></li>
+              <li>
+                <span class="fa fa-linkedin"></span><a href="#">LinkedIn</a>
+              </li>
             </ul>
           </nav>
         </section>
       </footer>
       <!--footer ends-->
-    </section>
+    </div>
     <!--full-page ends-->
   </body>
 </html>

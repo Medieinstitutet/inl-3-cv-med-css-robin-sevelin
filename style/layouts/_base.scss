@@ -3,54 +3,100 @@
   padding: 0;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 li {
   list-style: none;
 }
 
 main {
   max-width: 1200px;
-  margin: 10px;
+  top: 50px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: relative;
 }
 
 header {
-  background-color: rgb(49, 40, 42);
-  color: whitesmoke;
+  padding: 10px;
+  color: black;
   font-size: 2rem;
   height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  h1 {
+    position: relative;
+    right: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3rem;
+  }
   span {
+    position: relative;
     color: orangered;
+    left: 20px;
   }
 }
 
 .about {
-  border: 1px solid black;
   padding: 10px;
+  p,
+  h2 {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
 }
 
 .education {
-  border: 1px solid black;
+  background-image: url("/img/pexels-photo-399160.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 10px;
+  h2,
+  p {
+    padding: 10px;
+  }
+}
+
+.form-function {
+  text-align: center;
+  position: relative;
+  font-size: 2.5rem;
+  font-style: italic;
 }
 
 .skills {
-  border: 1px solid black;
   padding: 10px;
+  background-image: url("/img/pexels-tbee-82256.webp");
+  background-size: cover;
+  background-position: center;
+  h2 {
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  li {
+    margin: 10px;
+    list-style: square;
+    font-size: 1rem;
+  }
 }
 
-.experience {
-  border: 1px solid black;
+.experience,
+.keges,
+.strandakar,
+h3 {
   padding: 10px;
 }
 
 footer {
-  position: fixed;
+  margin-top: 100px;
+  position: relative;
+  left: 0;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -67,11 +113,17 @@ footer {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
+
+  span {
+    padding: 10px;
+  }
   li {
     list-style: none;
     a {
       text-decoration: none;
       color: whitesmoke;
+      font-size: 1rem;
+      padding: 10px;
     }
   }
 }
