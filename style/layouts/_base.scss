@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  max-width: 1200px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+header {
+  background-color: rgb(49, 40, 42);
+  color: whitesmoke;
+  font-size: 2rem;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  span {
+    color: orangered;
+  }
+}
+
+.about {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.education {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.skills {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.experience {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(49, 40, 42);
+  color: whitesmoke;
+}
+
+.contact,
+.social-media {
+  padding: 10px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: whitesmoke;
+    }
+  }
+}
+
+.social-media a:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(118, 232, 236));
+}

@@ -1,0 +1,33 @@
+main {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.about {
+  grid-column: 1 / span 2;
+  height: 200px;
+}
+
+.picture-of-me {
+  grid-column: 2 / span 2;
+}
+/*
+.education {
+  grid-column: 1 / span 2;
+  height: 200px;
+  background-image: url("/img/pexels-photo-399160.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.skills {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 2;
+}
+
+.experience {
+  grid-column: 1 / span 2;
+  height: 400px;
+}
