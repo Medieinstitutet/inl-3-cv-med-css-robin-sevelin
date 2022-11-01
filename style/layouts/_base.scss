@@ -5,60 +5,53 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-li {
-  list-style: none;
+  font-family: "Fira Code", monospace;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 172.5px;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
 }
-
-main {
-  margin: 10px;
-  position: relative;
-  margin-bottom: 20em;
-  max-width: 1200px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+li {
+  list-style: none;
 }
 
 header {
   padding: 10px;
   color: black;
-  font-size: 2rem;
   height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin-bottom: 10px;
   h1 {
     position: relative;
-    right: 20px;
-    font-size: 3rem;
+    right: 10px;
   }
   span {
     position: relative;
-    color: orangered;
-    left: 20px;
+    left: 10px;
   }
+}
+
+main {
+  margin: 10px;
+  max-width: 1200px;
+  margin-bottom: 200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .about {
   background-color: #9f497e;
-  color: whitesmoke;
+  color: white;
   padding: 10px;
-  font-size: 1.2rem;
-
-  h2,
-  p {
-    padding: 10px;
-  }
 }
 
 .picture-of-me {
@@ -78,24 +71,21 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   padding: 10px;
-  h2,
-  p {
-    padding: 10px;
-  }
 }
 
 .form-function {
   text-align: center;
   position: relative;
-  font-size: 2.5rem;
   font-style: italic;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .skills {
-  background-color: whitesmoke;
+  background-color: white;
   h2 {
     font-size: 1.5rem;
-    padding: 10px;
   }
   li {
     font-size: 1rem;
@@ -111,23 +101,19 @@ img {
 .strandakar {
   padding: 10px;
   background-color: #647295;
-  color: whitesmoke;
-  h3 {
-    padding: 10px;
-  }
+  color: white;
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
   background-color: rgb(49, 40, 42);
-  color: whitesmoke;
+  color: white;
 }
 
 .contact,
@@ -143,7 +129,7 @@ footer {
 
   a {
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
     font-size: 1rem;
     background-image: linear-gradient(90deg, #d200a2, #d488c2);
     background-size: 0% 5px;
